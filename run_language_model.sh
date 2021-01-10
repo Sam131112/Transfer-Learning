@@ -1,0 +1,1 @@
+python mlm_run.py --model_name_or_path xlm-roberta-base --train_file hate_speech/Italian__Train.txt --validation_file hate_speech/Italian__Eval.txt --do_train --do_eval --output_dir Italina_LangModel --max_seq_length 64 --pad_to_max_length --overwrite_output_dir --line_by_line --num_train_epochs 20
